@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 
+    <h1>HOLA MUNDO</h1>
+    
+
+    <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl mt-3 border">
+        <div class="flex-shrink-0">
+            <img class="h-12 w-12"
+                src="https://images.vexels.com/media/users/3/139911/isolated/preview/1afb4038427b2bd8edd275940aea269d-icono-de-servicio-de-chat-by-vexels.png"
+                alt="ChitChat Logo">
+        </div>
+        <div class="ml-6 pt-1">
+            <h4 class="text-xl text-gray-900 leading-tight">ChitChat</h4>
+            <p class="text-base text-gray-600 leading-normal">You have a new message!</p>
+        </div>
+    </div>
+    <!--bOTON AZUL-->
+    <div class="container mx-auto mt-5">
+        <button class='bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700'>
+            Botón con Tail
+        </button>
+    </div>
+
+    <!--ESTA PARTES SON LOS PUNTOS DE QUIEBRE-->
+    <div class="mx-10 mt-5">
+        <div class="bg-red-500 sm:bg-green-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-teal-500 h-12 w-12"></div>
+    </div>
+    <!--ESTA PARTES HERENCIA-->
+    <div class="mx-10 mt-5">
+        <h1 class="text-blue-500 md:text-red-500">Título</h1>
+    </div>
+    <!--ESTILOS BASE PARA PROYECTOS TAILWIND-->
+    <h1>Esto es un H1</h1>
+    <h2>Esto es un H2</h2>
+    <h3>Esto es un H3</h3>
+    <h4>Esto es un H4</h4>
+    <h5>Esto es un H5</h5>
+    <h6>Esto es un H6</h6>
+    <!--CONTAINER: PARA EL ANCHO DE NUESTRO DOCUMENTO-->
+    <div class="container mx-auto">
+        <!-- ... -->
+    </div>
+    <!--PADDING & MARGIN-->
+    <div class="mt-5 border mx-5 p-10">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, minima cupiditate iusto nobis dolores
+            distinctio exercitationem, incidunt animi magni illum est. Eaque excepturi sapiente libero quisquam aliquid?
+            Vel, accusantium repudiandae?
+        </p>
+    </div>
+    <!--FUENTES-->
+    <h1 class="text-6xl">Esto es un H1</h1>
+    <h2 class="text-5xl">Esto es un H2</h2>
+    <h3 class="text-4xl">Esto es un H3</h3>
+    <h4 class="text-3xl">Esto es un H4</h4>
+    <h5 class="text-2xl">Esto es un H5</h5>
+    <h6 class="text-xl">Esto es un H6</h6>
+
+    <h1 class="text-6xl text-orange-400">Esto es un H1</h1>
+    <h2 class="text-5xl text-green-500">Esto es un H2</h2>
+    <h3 class="text-4xl text-blue-700">Esto es un H3</h3>
+    <h4 class="text-3xl text-purple-500">Esto es un H4</h4>
+    <h5 class="text-2xl text-pink-500">Esto es un H5</h5>
+    <h6 class="text-xl text-red-700">Esto es un H6</h6>
+
+    <h1 class="text-center text-6xl text-orange-400">Esto es un H1</h1>
+    <h2 class="text-right text-5xl text-green-500">Esto es un H2</h2>
+
+    <div class="mt-5 border mx-5 p-10">
+        <p class="text-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, minima cupiditate iusto nobis dolores
+            distinctio exercitationem, incidunt animi magni illum est. Eaque excepturi sapiente libero quisquam aliquid?
+            Vel, accusantium repudiandae?
+        </p>
+    </div>
+
+    <h3 class="text-4xl text-blue-700 uppercase">Esto es un H3</h3>
+    <h4 class="text-3xl text-purple-500 lowercase">Esto es un H4</h4>
+    <h5 class="text-2xl text-pink-500 capitalize">Esto es un H5</h5>
+    <h6 class="text-xl text-red-700 normal-case">Esto es un H6</h6>
+
+    <!--Background Color-->
+    <h1 class="bg-red-900 text-6xl text-white text-center">Esto es un H1</h1>
+    <!--Border Radius-->
+    <h1 class="rounded-lg text-6xl text-white text-center bg-red-900 mx-5">Esto es un H1</h1>
+    <!--Width-->
+    <h1 class="w-3/5 text-6xl text-white text-center bg-red-900 rounded-lg mx-5">Esto es un H1</h1>
+    <!--Box Shadow-->
+    <h1 class="shadow text-6xl text-center mx-5 w-3/5">Esto es un H1</h1>
+    <!--Práctica-->
+    <!---->
+
+</head>
+<body>
+    
+</body>
+</html>
